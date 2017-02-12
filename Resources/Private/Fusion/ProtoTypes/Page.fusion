@@ -1,13 +1,13 @@
-prototype(TYPO3.Neos:Page) {
+prototype(Neos.Neos:Page) {
 
     head {
 
-        jqueryJs = TYPO3.TypoScript:Tag {
+        jqueryJs = Neos.Fusion:Tag {
             @position = 'before javascripts'
             tagName = 'script'
             attributes {
                 type = 'text/javascript'
-                src = TYPO3.TypoScript:ResourceUri {
+                src = Neos.Fusion:ResourceUri {
                     path = 'resource://ObisConcept.NeosJQuery/Public/JavaScript/jquery.min.js'
                 }
             }
