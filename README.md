@@ -9,5 +9,5 @@ A Neos CMS package to integrate jQuery.
 Add the package in your site package composer.json
 
 `"require": {
-     "obisconcept/neos-jquery": "~1.0.0"
+     "obisconcept/neos-jquery": "~2.0.0"
  }`
